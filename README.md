@@ -9,7 +9,12 @@ Steps followed:
 4. Display and compare the outputs across multiple prompts in a clear table format.
 
 ## Further Improvements 
-1. Create a better UI.
-2. Compare evaluation metrics.
-3. Get a better GPU subscription to improve the model and fine tuning. A lot of optimizations were made for the code to run easily on the free version. :(
+1. Add Quantitative Evaluation Metrics like BLEU, ROUGE, or exact match scores on a held-out validation set for measuring performance before and after fine-tuning.
+2. Integrate FAISS for Semantic Search + Matching Logic.
+3. Feedback Loop with Reward Modeling (RLAIF-style).
+4. Inference API or Streamlit Demo.
+5. Memory & Logging System.
+6. Upgrade existing GPU resources.
+
+
 
